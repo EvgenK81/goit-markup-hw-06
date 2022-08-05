@@ -914,11 +914,7 @@ position: fixed;
      color: #2196F3;
 }
 /*FORM FOOTER*/
-.form-button{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
+
 .mailto-footer{
      display: flex;
     
