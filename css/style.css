@@ -607,7 +607,10 @@ transition: fill var(--transition-speed);
      margin-left: 70px;
 }
 
-
+.logo-style-div{
+ 
+ flex-grow: 1;
+}
 
 /*PORTFOLIO*/
 .filter-btn{
@@ -795,7 +798,7 @@ position: fixed;
      flex-direction: column;
 }
 .form-data{
-     margin-bottom: 10px;
+     margin-bottom: 20px;
 }
 .form-data-set{
      display: block;
@@ -838,6 +841,7 @@ position: fixed;
 
 } 
   .modal-form-message{
+     display: block;
      border: 1px solid rgba(33, 33, 33, 0.2);
      border-radius: 4px;
      resize: none;
@@ -861,7 +865,7 @@ position: fixed;
     }
     .form-check:checked + .form-check-desc::before{
      background-color: var(--modal-frame-color);
-     background-image: url(/img/ikonpfon/icon\ check.svg);
+     background-image: url(../img/ikonpfon/icon\ check.svg);
      background-size: contain;
     }
     .form-check:focus+.form-check-desc::before{
@@ -869,6 +873,7 @@ position: fixed;
     }
    
     .form-check-desc{
+     justify-content: center;
      display: flex;
      align-items:center ;
      font-family:var(--primary-font);
