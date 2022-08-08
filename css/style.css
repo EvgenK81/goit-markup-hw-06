@@ -798,8 +798,12 @@ position: fixed;
      flex-direction: column;
 }
 .form-data{
+     margin-bottom: 10px;
+}
+.form-data-tex{
      margin-bottom: 20px;
 }
+
 .form-data-set{
      display: block;
      
